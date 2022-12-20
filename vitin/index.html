@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form">
+        <table>
+            <tr>
+                <td>
+                    <label for="taikhoannguon">Source account</label>
+                </td>
+                <td>
+
+                    <input type="text" name="idtaikhoannguon" id="" placeholder="account number">
+                    <input type="text" name="tentaikhoannguon" id="tentaikhoannguon" placeholder="name account">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="taikhoandich">End account</label></td>
+                <td><input type="text" name="sotaikhoan" id="" placeholder="account number">
+                    <input type="text" name="tentaikhoan" id="" placeholder="name account">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="sotien">Price</label></td>
+                <td>
+                    <input type="text" name="sotienbangso" id="" placeholder="Number Price">
+                    <input type="text" name="sotienbangchu" id="" placeholder="Text Price">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="noidung">Content</label></td>
+                <td><input type="text" name="noidung" id="" placeholder="content"></td>
+            </tr>
+        </table>
+        <button onclick="submit()">Confirm</button>
+    </div>
+
+    <button onclick="hien()">Hiện</button>
+
+    <div class="img">
+        <img src="img.jpg" alt="">
+        <div class="time">
+            <p id="time"></p>
+        </div>
+        <div class="magiaodich">
+            <p>360S22BOAT1ABZJD</p>
+        </div>
+        <div class="content">
+            <img src="logo.png" alt="">
+            <div class="noidungchinh">
+                <p class="p1">Từ tài khoản</p>
+                <div class="tutaikhoan">
+                    <p class="11">*******1275</p>   
+                    <p class="12" id="nametaikhoannguon">NGUYEN DUC ANH</p>
+                </div>
+            </div>
+            <div class="noidungchinh">
+                <p class="p2">Đến tài khoản</p>
+            </div>
+            <div class="noidungchinh">
+                <p class="p3">Ngân hàng</p>
+            </div>
+            <div class="noidungchinh">
+                <p class="p4">Số tiền</p>
+            </div>
+            <div class="noidungchinh">
+                <p class="p5">Phí</p>
+            </div>
+            <div class="noidungchinh">
+                <p class="p6">Nội dung</p>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
+<script>
+    function submit(){
+        alert("hello");
+    }
+</script>
